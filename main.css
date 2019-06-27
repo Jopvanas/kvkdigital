@@ -1,0 +1,190 @@
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+body{
+    background: white;
+    color:black;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'CircularStd-Bold', sans-serif;
+}
+
+h2 { 
+    font-size: 30px;
+    font-family: 'CircularStd-Book', sans-serif;
+}
+
+h3 { 
+    font-size: 30px;
+    font-family: 'CircularStd-Bold', sans-serif;
+}
+
+h4 { 
+    font-size: 25px;
+    font-family: 'CircularStd-Book', sans-serif;
+}
+
+h5 {
+    font-size: 25px;
+    font-family: 'CircularStd-Bold', sans-serif;
+    margin-top: 10px;
+    
+}
+
+h6 {
+    font-size: 20px;
+    font-family: 'CircularStd-BookItalic', sans-serif;
+    margin-top: -40px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'CircularStd-Book', sans-serif;
+}
+
+p.intro {
+    opacity: 0.8;
+}
+
+@font-face {
+    font-family: CircularStd-Bold;
+    src: url(fonts/CircularStd-Bold.otf);
+  }
+
+@font-face {
+    font-family: CircularStd-Book;
+    src: url(fonts/CircularStd-Book.otf);
+  }
+
+@font-face {
+    font-family: CircularStd-BookItalic;
+    src: url(fonts/CircularStd-BookItalic.otf);
+  }
+
+.quote {
+    margin-top: 304px;
+}
+
+.logo {
+    margin-top: 50px;
+    max-width:50%;
+    position:relative;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'CircularStd-Book', 'sans-serif';
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+nav {
+    margin-top: 53px;
+}
+
+.wrapper{
+    max-width: 1364px;
+    display: block;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.half-col{
+    width:50%;
+}
+
+header.header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100vw;
+    color:white;
+}
+
+header.header .wrapper{
+    justify-content: space-between;
+}
+
+section.intro, header.header, section.team{
+    background: #0000ff;
+}
+
+section.intro{
+    min-height:100vh;
+    color:white;
+}
+
+#middle {
+    height: 2589px;
+}
+
+h4.subheader {
+    margin-top: 100px;
+}
+
+h3.subtitle {
+    margin-top: 50px;
+}
+
+p.middletext {
+    margin-top: 35px;
+}
+
+video {
+    margin:0 auto;
+}
+
+section.team{
+    height:665px;
+    color:white;
+}
+
+.photo {
+    margin-top:80px;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+img:nth-child(3), img:nth-child(4) {
+    margin-left: 150px;
+}
+
+section.downloads{
+    height: auto;
+}
+
+.downloadlink {
+    color:black;
+    padding: 30px;
+    margin-left:-30px;
+}
+
+.firstvideo {
+    margin-top:23px;
+}
+
+.photos {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+    width:80vw;
+}
+
+.photos img {
+    border-radius: 50%;
+}
+
+.downloadtitle {
+    margin-bottom:100px;
+    margin-top:50px;
+}
